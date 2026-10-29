@@ -9,8 +9,8 @@ Google account to a personal assistant for email and calendar tasks.
 
 Depending on the permissions the owner grants, the installation can read Gmail,
 send messages, manage messages, and read or manage calendar events. The owner
-controls which tools are enabled. A separate `gog` command-line trial currently
-has read-only Gmail access.
+controls which tools are enabled. Google access uses the `gog` command-line
+client and restricted tools connected to OpenClaw.
 
 This integration is for the account owner's personal use. It offers no public
 registration or access to other people's Google accounts.

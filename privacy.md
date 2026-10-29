@@ -20,7 +20,7 @@ replies, organising messages, and managing calendar events.
 
 The Google integration runs on the owner's computer. OAuth credentials and
 tokens are stored on that computer, outside this public website. The `gog`
-command-line trial stores its OAuth client secret and token in macOS Keychain.
+client stores its OAuth client secret and refresh token in macOS Keychain.
 
 When the owner asks the AI assistant to process Google data, relevant content may
 be sent to the configured AI model provider. Conversations, tool results, and
