@@ -1,0 +1,19 @@
+# Repo guardrails: gitleaks config.
+# Extends the default ruleset with common local false positives.
+title = "repo-guardrails"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Local false positives"
+paths = [
+  '''(^|/)\.env\.example$''',
+  '''(^|/)\.env\.sample$''',
+  '''(^|/)secrets/.*\.example$''',
+]
+regexes = [
+  '''AKIAIOSFODNN7EXAMPLE''',
+  '''wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY''',
+  '''gho_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx''',
+]
